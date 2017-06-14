@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">NilApplcation</string>
+    <string name="lorem">一些内容</string>
+    <string name="navigation_drawer_open">open</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <string-array name="menu_array">
+        <item>Menu 1</item>
+        <item>Menu 2</item>
+        <item>Menu 3</item>
+        <item>Menu 4</item>
+    </string-array>
+</resources>
