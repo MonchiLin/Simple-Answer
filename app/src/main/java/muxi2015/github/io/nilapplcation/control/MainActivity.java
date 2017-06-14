@@ -94,7 +94,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 //复制文件
                 try {
                     InputStream is = getBaseContext().getAssets().open(dbnames);
-                    OutputStream os = new FileOutputStream(DB_PATH + dbnames );
+                    OutputStream os = new FileOutputStream(DB_PATH + dbnames);
 
                     //用来复制文件
                     byte[] buffer = new byte[1024];
@@ -145,7 +145,6 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     @Override
     public boolean onNavigationItemSelected(@NonNull MenuItem item) {
         int id = item.getItemId();
-
         if (id == R.id.nav_JavaSenior) {
             page_method();
             dbname = "questionA";
